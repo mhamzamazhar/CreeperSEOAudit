@@ -7,10 +7,10 @@ function initializeWebVitalsTracking(serverId, gatag) {
         return;
     }
 
-    // Construct the URL of your Python server endpoint with the given serverId
+    // Construct the URL of your server endpoint with the given serverId
     const serverUrl = `https://app.creeperseoaudit.com/cvw-metrics?id=${encodeURIComponent(serverId)}`;
 
-    // Define a function to send metrics to the Python server and GA4
+    // Define a function to send metrics to the server and GA4
     function sendMetricToServer(metric) {
         const data = JSON.stringify({
             name: metric.name,
