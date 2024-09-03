@@ -1,6 +1,6 @@
 import {onCLS, onFCP, onINP, onLCP, onTTFB} from 'https://unpkg.com/web-vitals@4?module';
 
-function initializeWebVitalsTracking(serverId, gatag) {
+export function initializeWebVitalsTracking(serverId, gatag) {
     // Check if serverId is empty or false, and if so, do not execute the code
     if (!serverId) {
         console.warn('Server ID is not provided. Web Vitals tracking will not be initialized.');
