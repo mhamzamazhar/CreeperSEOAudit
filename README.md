@@ -25,7 +25,7 @@ This repository provides a JavaScript script to measure and track [Core Web Vita
         //initializeWebVitalsTracking('your_project_id', gatag, gtmtag);
 
         //To send data to GTM for processing
-        //initializeWebVitalsTracking('DEBUG', false, true);
+        initializeWebVitalsTracking('DEBUG', false, true);
 
         //To send data to GA4 for processing
         //initializeWebVitalsTracking('DEBUG', true, false);
