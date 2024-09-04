@@ -15,7 +15,7 @@ This repository provides a JavaScript script to measure and track [Core Web Vita
 1. Include the script in your HTML file:
 
     ```html
-    <script src="https://cdn.jsdelivr.net/gh/mhamzamazhar/CreeperSOS@main/web-vitals/build/bundle-1.1.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mhamzamazhar/CreeperSOS@main/web-vitals/build/bundle-1.1.1.js"></script>
     ```
 
 2. Initialize the tracking in your HTML file:
